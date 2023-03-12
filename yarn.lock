@@ -4178,7 +4178,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cssstyle@npm:^2.2.0, cssstyle@npm:^2.3.0":
+"cssstyle@npm:^2.3.0":
   version: 2.3.0
   resolution: "cssstyle@npm:2.3.0"
   dependencies:
@@ -4253,13 +4253,6 @@ __metadata:
   version: 1.2.0
   resolution: "decamelize@npm:1.2.0"
   checksum: ad8c51a7e7e0720c70ec2eeb1163b66da03e7616d7b98c9ef43cce2416395e84c1e9548dd94f5f6ffecfee9f8b94251fc57121a8b021f2ff2469b2bae247b8aa
-  languageName: node
-  linkType: hard
-
-"decimal.js@npm:^10.2.0":
-  version: 10.2.0
-  resolution: "decimal.js@npm:10.2.0"
-  checksum: 4844fc8f8214a4a4a589317533af40a5ec42e6d3abf29f9d6692d09038f29eb0242d9389e406fcd977e783e457b046925fd077c673742407bb4412525e9fd615
   languageName: node
   linkType: hard
 
@@ -4687,25 +4680,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"escodegen@npm:^1.14.1":
-  version: 1.14.3
-  resolution: "escodegen@npm:1.14.3"
-  dependencies:
-    esprima: ^4.0.1
-    estraverse: ^4.2.0
-    esutils: ^2.0.2
-    optionator: ^0.8.1
-    source-map: ~0.6.1
-  dependenciesMeta:
-    source-map:
-      optional: true
-  bin:
-    escodegen: bin/escodegen.js
-    esgenerate: bin/esgenerate.js
-  checksum: 381cdc4767ecdb221206bbbab021b467bbc2a6f5c9a99c9e6353040080bdd3dfe73d7604ad89a47aca6ea7d58bc635f6bd3fbc8da9a1998e9ddfa8372362ccd0
-  languageName: node
-  linkType: hard
-
 "escodegen@npm:^2.0.0":
   version: 2.0.0
   resolution: "escodegen@npm:2.0.0"
@@ -5008,7 +4982,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"estraverse@npm:^4.1.1, estraverse@npm:^4.2.0":
+"estraverse@npm:^4.1.1":
   version: 4.3.0
   resolution: "estraverse@npm:4.3.0"
   checksum: a6299491f9940bb246124a8d44b7b7a413a8336f5436f9837aaa9330209bd9ee8af7e91a654a3545aee9c54b3308e78ee360cef1d777d37cfef77d2fa33b5827
@@ -6733,13 +6707,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ip-regex@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "ip-regex@npm:2.1.0"
-  checksum: 331d95052aa53ce245745ea0fc3a6a1e2e3c8d6da65fa8ea52bf73768c1b22a9ac50629d1d2b08c04e7b3ac4c21b536693c149ce2c2615ee4796030e5b3e3cba
-  languageName: node
-  linkType: hard
-
 "ip@npm:^1.1.5":
   version: 1.1.8
   resolution: "ip@npm:1.1.8"
@@ -7068,13 +7035,6 @@ __metadata:
   dependencies:
     isobject: ^3.0.1
   checksum: 2a401140cfd86cabe25214956ae2cfee6fbd8186809555cd0e84574f88de7b17abacb2e477a6a658fa54c6083ecbda1e6ae404c7720244cd198903848fca70ca
-  languageName: node
-  linkType: hard
-
-"is-potential-custom-element-name@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "is-potential-custom-element-name@npm:1.0.0"
-  checksum: 39084c1e357f2adf0cb9843cabd3c1ac770c9da14addbfd4e5a0243877eb084d9f3446e40c53970fdb8ea9c07e95659d694a0c4c6c4aa7a3da3f3e108212984f
   languageName: node
   linkType: hard
 
@@ -7955,46 +7915,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsdom@npm:^16.2.2":
-  version: 16.4.0
-  resolution: "jsdom@npm:16.4.0"
-  dependencies:
-    abab: ^2.0.3
-    acorn: ^7.1.1
-    acorn-globals: ^6.0.0
-    cssom: ^0.4.4
-    cssstyle: ^2.2.0
-    data-urls: ^2.0.0
-    decimal.js: ^10.2.0
-    domexception: ^2.0.1
-    escodegen: ^1.14.1
-    html-encoding-sniffer: ^2.0.1
-    is-potential-custom-element-name: ^1.0.0
-    nwsapi: ^2.2.0
-    parse5: 5.1.1
-    request: ^2.88.2
-    request-promise-native: ^1.0.8
-    saxes: ^5.0.0
-    symbol-tree: ^3.2.4
-    tough-cookie: ^3.0.1
-    w3c-hr-time: ^1.0.2
-    w3c-xmlserializer: ^2.0.0
-    webidl-conversions: ^6.1.0
-    whatwg-encoding: ^1.0.5
-    whatwg-mimetype: ^2.3.0
-    whatwg-url: ^8.0.0
-    ws: ^7.2.3
-    xml-name-validator: ^3.0.0
-  peerDependencies:
-    canvas: ^2.5.0
-  peerDependenciesMeta:
-    canvas:
-      optional: true
-  checksum: a9ca90c0d55bdeebb40a0baba34372141262f776c71793e00fc1ed93dc785a09919e57d2fe2041b9bbb855864bc6d17e722f182c19dc179fa162d253b40dd162
-  languageName: node
-  linkType: hard
-
-"jsdom@npm:^16.4.0":
+"jsdom@npm:^16.2.2, jsdom@npm:^16.4.0":
   version: 16.7.0
   resolution: "jsdom@npm:16.7.0"
   dependencies:
@@ -9418,13 +9339,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse5@npm:5.1.1":
-  version: 5.1.1
-  resolution: "parse5@npm:5.1.1"
-  checksum: 613a714af4c1101d1cb9f7cece2558e35b9ae8a0c03518223a4a1e35494624d9a9ad5fad4c13eab66a0e0adccd9aa3d522fc8f5f9cc19789e0579f3fa0bdfc65
-  languageName: node
-  linkType: hard
-
 "parse5@npm:6.0.1":
   version: 6.0.1
   resolution: "parse5@npm:6.0.1"
@@ -10055,30 +9969,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"request-promise-core@npm:1.1.4":
-  version: 1.1.4
-  resolution: "request-promise-core@npm:1.1.4"
-  dependencies:
-    lodash: ^4.17.19
-  peerDependencies:
-    request: ^2.34
-  checksum: c798bafd552961e36fbf5023b1d081e81c3995ab390f1bc8ef38a711ba3fe4312eb94dbd61887073d7356c3499b9380947d7f62faa805797c0dc50f039425699
-  languageName: node
-  linkType: hard
-
-"request-promise-native@npm:^1.0.8":
-  version: 1.0.9
-  resolution: "request-promise-native@npm:1.0.9"
-  dependencies:
-    request-promise-core: 1.1.4
-    stealthy-require: ^1.1.1
-    tough-cookie: ^2.3.3
-  peerDependencies:
-    request: ^2.34
-  checksum: 3e2c694eefac88cb20beef8911ad57a275ab3ccbae0c4ca6c679fffb09d5fd502458aab08791f0814ca914b157adab2d4e472597c97a73be702918e41725ed69
-  languageName: node
-  linkType: hard
-
 "request@npm:^2.85.0":
   version: 2.88.0
   resolution: "request@npm:2.88.0"
@@ -10440,7 +10330,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"saxes@npm:^5.0.0, saxes@npm:^5.0.1":
+"saxes@npm:^5.0.1":
   version: 5.0.1
   resolution: "saxes@npm:5.0.1"
   dependencies:
@@ -10982,13 +10872,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stealthy-require@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "stealthy-require@npm:1.1.1"
-  checksum: 6805b857a9f3a6a1079fc6652278038b81011f2a5b22cbd559f71a6c02087e6f1df941eb10163e3fdc5391ab5807aa46758d4258547c1f5ede31e6d9bfda8dd3
-  languageName: node
-  linkType: hard
-
 "string-length@npm:^4.0.1":
   version: 4.0.1
   resolution: "string-length@npm:4.0.1"
@@ -11365,27 +11248,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tough-cookie@npm:^2.3.3, tough-cookie@npm:~2.4.3":
-  version: 2.4.3
-  resolution: "tough-cookie@npm:2.4.3"
-  dependencies:
-    psl: ^1.1.24
-    punycode: ^1.4.1
-  checksum: af5c7b03f22fc60b7a03339414d7e5b4d68aea84bcc591b4bfab73d85f71e218ff9ebdf94042205051faf980bdb2eeec5c8cf6ea5368fd9f878d2c3f718640b7
-  languageName: node
-  linkType: hard
-
-"tough-cookie@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "tough-cookie@npm:3.0.1"
-  dependencies:
-    ip-regex: ^2.1.0
-    psl: ^1.1.28
-    punycode: ^2.1.1
-  checksum: 796f6239bce5674a1267b19f41972a2602a2a23715817237b5922b0dc2343512512eea7d41d29210a4ec545f8ef32173bbbf01277dd8ec3ae3841b19cbe69f67
-  languageName: node
-  linkType: hard
-
 "tough-cookie@npm:^4.0.0":
   version: 4.1.2
   resolution: "tough-cookie@npm:4.1.2"
@@ -11395,6 +11257,16 @@ __metadata:
     universalify: ^0.2.0
     url-parse: ^1.5.3
   checksum: a7359e9a3e875121a84d6ba40cc184dec5784af84f67f3a56d1d2ae39b87c0e004e6ba7c7331f9622a7d2c88609032473488b28fe9f59a1fec115674589de39a
+  languageName: node
+  linkType: hard
+
+"tough-cookie@npm:~2.4.3":
+  version: 2.4.3
+  resolution: "tough-cookie@npm:2.4.3"
+  dependencies:
+    psl: ^1.1.24
+    punycode: ^1.4.1
+  checksum: af5c7b03f22fc60b7a03339414d7e5b4d68aea84bcc591b4bfab73d85f71e218ff9ebdf94042205051faf980bdb2eeec5c8cf6ea5368fd9f878d2c3f718640b7
   languageName: node
   linkType: hard
 
@@ -12208,21 +12080,6 @@ __metadata:
   dependencies:
     async-limiter: ~1.0.0
   checksum: bdb2223a40c2c68cf91b25a6c9b8c67d5275378ec6187f343314d3df7530e55b77cb9fe79fb1c6a9758389ac5aefc569d24236924b5c65c5dbbaff409ef739fc
-  languageName: node
-  linkType: hard
-
-"ws@npm:^7.2.3":
-  version: 7.3.1
-  resolution: "ws@npm:7.3.1"
-  peerDependencies:
-    bufferutil: ^4.0.1
-    utf-8-validate: ^5.0.2
-  peerDependenciesMeta:
-    bufferutil:
-      optional: true
-    utf-8-validate:
-      optional: true
-  checksum: 4dc06da11813b7d7f2b2a662ed372418a0d28846b5ee5bda6cdf45402dbe00d8744e27080acfd4e8a31af093719be55f34a9c6878aa0a76ac4d22e4a3a7c3537
   languageName: node
   linkType: hard
 
